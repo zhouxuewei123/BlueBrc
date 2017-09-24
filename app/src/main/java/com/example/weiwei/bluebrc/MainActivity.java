@@ -57,21 +57,21 @@ public class MainActivity extends AutoLayoutActivity {
         rlMain = (AutoRelativeLayout)findViewById(R.id.rlMain);
         rlMain.setBackgroundResource(R.mipmap.back5);
         tvRoom1 = (TextView)findViewById(R.id.tvRoom1);
-        tvRoom1.setText("培训301");
+        tvRoom1.setText("301教室");
         tvRoom2 = (TextView)findViewById(R.id.tvRoom2);
-        tvRoom2.setText("培训302");
+        tvRoom2.setText("302教室");
         tvRoom3 = (TextView)findViewById(R.id.tvRoom3);
-        tvRoom3.setText("培训303");
+        tvRoom3.setText("303教室");
         tvRoom4 = (TextView)findViewById(R.id.tvRoom4);
-        tvRoom4.setText("培训304");
+        tvRoom4.setText("304教室");
         tvRoom5 = (TextView)findViewById(R.id.tvRoom5);
-        tvRoom5.setText("培训401");
+        tvRoom5.setText("401教室");
         tvRoom6 = (TextView)findViewById(R.id.tvRoom6);
-        tvRoom6.setText("培训402");
+        tvRoom6.setText("402教室");
         tvRoom7 = (TextView)findViewById(R.id.tvRoom7);
-        tvRoom7.setText("培训403");
+        tvRoom7.setText("403教室");
         tvRoom8 = (TextView)findViewById(R.id.tvRoom8);
-        tvRoom8.setText("培训404");
+        tvRoom8.setText("404教室");
 
     }
     Handler handler = new Handler() {
